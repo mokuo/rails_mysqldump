@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["mokuo"]
   spec.email         = ["https://github.com/mokuo/rails_mysqldump"]
 
-  spec.summary       = %q{Run mysqldump in the Rails project}
-  spec.description   = %q{By default, it outputs dump file to 'tmp/mysqldump' directory.}
-  spec.homepage      = "https://github.com/ultimate-works/rails_mysqldump"
+  spec.summary       = %q{Run mysqldump in the Rails project.}
+  spec.description   = %q{Run mysqldump in the Rails project.}
+  spec.homepage      = "https://github.com/mokuo/rails_mysqldump"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})

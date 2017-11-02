@@ -6,12 +6,12 @@ require "rails_mysqldump/version"
 Gem::Specification.new do |spec|
   spec.name          = "rails_mysqldump"
   spec.version       = RailsMysqldump::VERSION
-  spec.authors       = ["TODO: Write your name"]
-  spec.email         = ["TODO: Write your email address"]
+  spec.authors       = ["mokuo"]
+  spec.email         = ["https://github.com/mokuo/rails_mysqldump"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Run mysqldump in the Rails project}
+  spec.description   = %q{By default, it outputs dump file to 'tmp/mysqldump' directory.}
+  spec.homepage      = "https://github.com/ultimate-works/rails_mysqldump"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
